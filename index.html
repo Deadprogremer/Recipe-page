@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    html,
+    body{
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family:'Courier New', Courier, monospace;
+      background-color: pink;
+    }
+    .container{
+      width: 40%;
+      height: 80%;
+      padding: 30px;
+      border-radius: 10px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      letter-spacing: 1px;
+      line-height: 1.5;
+    }
+    .container img{
+      width: 100%;
+      border-radius: 10px;
+    }
+    .container h1,h3{
+      color: red;
+    }
+    table{
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th,td{
+      border-bottom: 1px solid rgba(0, 0, 0, 0.555);
+      padding: 10px;
+      text-align: left;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @media (max-width:800px) {
+      .container{
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <img src="assets\images\image-omelette.jpeg" alt="omelette" width="80vw">
+    <section>
+      <h1>Simple Omelette Recipe</h1>
+      <p>
+        An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+        to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+      </p>
+
+    </section>
+    <section style="width: 100%; padding-left: 5vw; background-color: rgba(255, 192, 203, 0.589);">
+      <h3>Preparation time</h3>
+      <ul>
+        <li><b>Total:</b> Approximately 10 minutes</li>
+        <li><b>Preparation:</b> 5 minutes</li>
+        <li><b>Cooking:</b> 5 minutes</li>
+      </ul>
+    </section>
+    <section>
+      <h1>Ingredients</h1>
+      <ul>
+        <li>2-3 large eggs</li>
+        <li>Salt, to taste</li>
+        <li>Pepper, to taste</li>
+        <li>1 tablespoon of butter or oil</li>
+        <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+      </ul>
+      <hr>
+    </section>
+  <section>
+    <h1>Instructions</h1>
+    <ol>
+      <li>
+        Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+        You can add a tablespoon of water or milk for a fluffier texture.
+      </li>
+      <li>
+        Heat the pan: Place a non-stick frying pan over medium heat and add butter or oil.
+      </li>
+      <li>
+        Cook the omelette: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+        the eggs evenly coat the surface.
+      </li>
+      <li>
+        Add fillings (optional): When the eggs begin to set at the edges but are still slightly runny in the 
+        middle, sprinkle your chosen fillings over one half of the omelette.
+      </li>
+      <li>
+        Fold and serve: As the omelette continues to cook, carefully lift one edge and fold it over the 
+        fillings. Let it cook for another minute, then slide it onto a plate.
+      </li>
+      <li>
+        Enjoy: Serve hot, with additional salt and pepper if needed.
+      </li>
+    </ol>
+  <hr>
+</section>
+  <section>
+    <h1>Nutrition</h1>
+    <p>
+      The table below shows nutritional values per serving without the additional fillings.
+    </p>
+    <table >
+      <tbody>
+        <tr>
+          <td>Calories</td>
+          <td>277kcal</td>
+        </tr>
+        <tr>
+          <td>Carbs</td>
+          <td>0g</td>
+        </tr>
+        <tr>
+          <td>Protein</td>
+          <td>20g</td>
+        </tr>
+        <tr>
+          <td>Fat</td>
+          <td>22g</td>
+        </tr>
+      </tbody>
+    </table> 
+    </section>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Hussain</a>.
+    </div>
+  </main>
+</body>
+</html>
